@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>What You Want to Know</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            width: 100%;
+
+            background-image: url("vecteezy_pollution-sea-by-plastic-trash-garbage-underwater_23165655.jpg");
+            background-position: center;
+            background-size: cover;
+
+        }
+        .bingkai{
+            position: relative;
+            width: 500px;
+            height: 550px;
+            background: transparent;
+            border: 2px solid rgba(225, 224, 244, 0.5);
+            border-radius: 30px;
+            backdrop-filter: blur(15px);           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2{
+            font-size: 2em;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            
+        }
+        .inputbox{
+            position: relative;
+            margin: 30px 0;
+            width: 310px;
+            color: #fff;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            text-align: justify;
+            margin-left: 20px;
+          
+        }     
+               
+              
+        input {
+            width: 100%;
+            height: 40px;
+            border-radius: 40px;
+            background: #db6ac8;
+            border:none;
+            outline: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            margin-bottom: 10px;
+            margin-top: 50px;
+            
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="bingkai">
+           
+                <form action="">
+                    <h2 style="text-align: center;">&#128541; What you want to know ? &#128515;</h2>
+                    <div class="inputbox">
+                        <label for="theme">Pilih tema yang kamu inginkan :</label>
+                        <br>
+                        <select name="theme" id="theme">
+                          <option value="environment">Environment</option>
+                          <option value="-">-</option>
+                         
+                        </select>
+                        <br>
+                        <br>
+                        <label for="yang ingin diketahui">Apa yang ingin kamu ketahui :</label>
+                        <br>
+                        <select name="data" id="data">
+                          <option value="Data Timbunan Sampah di Indonesia">Data Timbunan Sampah di Indonesia</option>
+                          <option value="Data Timbunan Sampah di Dunia">Data Timbunan Sampah di Dunia</option>
+                          <option value="Circular Economy">Circular Economy</option>
+                          <option value="Bank Sampah">Bank Sampah</option>
+                          <option value="Solusi Pemasalahan Sampah">Solusi Permasalahan Sampah</option>
+                          <option value="Pemanfaatan Sampah ">Pemanfaatan Sampah</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="jenis sampah">Jenis-Jenis Sampah:</label>
+                        <br>
+                        <select name="jenis sampah" id="jenis sampah">
+                            <option value="sampah plastik">Sampah Plastik</option>
+                            <option value="limbah medis">Limbah Medis</option>
+                            <option value="limbah rumah tangga">Limbah Rumah Tangga</option>
+                            <option value="limbah industri">Limbah Industri</option>
+                            <option value="sampah kertas">Sampah Kertas</option>
+                            <option value="sampah logam">Sampah Logam</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="komunitas">Komunitas Peduli Lingkungan:</label>
+                        <br>
+                             <select name="komunitas" id="komunitas">
+                            <option value="waste4change">Waste4Change</option>
+                            <option value="Rekosistem">Rekosistem</option>
+                            <option value="Rebricks">Rebricks</option>
+                            <option value="EwasteRJ">EwasteRJ</option>
+                            <option value="Armada Kemasan">Armada Kemasan</option>
+                            
+                        </select>                     
+                                                
+                    </div>
+                                    
+                    <input type="submit" name="submit">
+
+                </form>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
